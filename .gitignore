@@ -1,0 +1,28 @@
+# OS Files and cache
+.DS_Store
+.sass-cache
+
+# Node.js Dependencies
+**/node_modules
+
+# Environment Config Files
+**/config/**
+!**/config/default.js
+
+# Compiled Files
+**/public/css/**
+**/public/dev/**
+
+# pm2 config
+pm2-*
+
+# runtime data
+data/**
+
+# Ignore package-lock.json file
+**/package-lock.json
+
+# Ignore image file
+*.png
+*.jpg
+*.jpeg
