@@ -16,4 +16,4 @@ e.g.
 
 Start server:
 
-> $ node index.js
+> $ node api.js
